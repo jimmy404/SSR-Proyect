@@ -10,3 +10,7 @@ node_modules
 .next
 
 *.next
+
+.map
+
+*.map
