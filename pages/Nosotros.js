@@ -1,3 +1,4 @@
+import Navegacion from '../componentes/Navegacion';
 
 const Nosotros = () => (
     <div>
