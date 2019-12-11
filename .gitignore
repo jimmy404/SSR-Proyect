@@ -1,5 +1,12 @@
 node_modules
 .log
+
 *.log
+
 .json
+
 *.json
+
+.next
+
+*.next
