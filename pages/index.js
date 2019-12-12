@@ -27,12 +27,17 @@ const Index = (props) => (
 Index.getInitialProps = async () => {
     const precio = await fetch('https://api.coinmarketcap.com/v2/ticker/1/');
     const noticias = await fetch('https://newsapi.org/v2/everything?q=bitcoin&sortBy=publishedAt&apiKey=5bdc8077784142db9ac390ab5b8fd753&language=es');
+    const eventos = await fetch ('#');
+
 
     const resPrecio = await precio.json();
     const resNoticias = await noticias.json();
+    const resEventos = await eventos.json();
+
         return{
         precioBitcoin: resPrecio.data.quotes.USD,
-        noticias : resNoticias.articles
+        noticias : resNoticias.articles,
+        eventos: resEventos
     }
 }
 
