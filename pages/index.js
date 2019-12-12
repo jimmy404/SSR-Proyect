@@ -1,5 +1,6 @@
 import MasterPage from '../componentes/Master';
 import fetch from 'isomorphic-unfetch';
+import Precio from '../componentes/Precio';
 
 const Index = (props) => (
     <MasterPage>

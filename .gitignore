@@ -30,3 +30,7 @@ node_modules/
 .next/static/runtime/webpack.js
 .next/static/runtime/webpack.js.map
 .next/static/webpack/7fd2280185e72621e9b6.hot-update.json
+.next/server/static/development/pages/index.js.map
+.next/static/development/pages/index.js.map
+.next/static/runtime/webpack.js
+.next/static/runtime/webpack.js.map
