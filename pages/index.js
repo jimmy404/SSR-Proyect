@@ -3,8 +3,16 @@ import MasterPage from '../componentes/Master';
 
 const Index = () => (
     <MasterPage>
-        <div>
-            <h1>Hola mundo</h1>
+        <div className="row">
+            <div className="col-12">
+                <h2>Precio del Bitcoin</h2>
+            </div>
+            <div className="col-md-8">
+            <h2>Noticias sobre el Bitcoin</h2>
+            </div>
+            <div className="col-md-4">
+            <h2>Proximos Eventos Bitcoin</h2>
+            </div>
         </div>
     </MasterPage>
 )
