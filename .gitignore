@@ -19,3 +19,14 @@ node_modules
 .next/
 
 node_modules/
+
+.next/cache/autodll-webpack-plugin/development_instance_0_d67c36795a9ee746bb605046784ca366/stats.json
+.next/cache/autodll-webpack-plugin/package.json.hash
+.next/server/static/development/pages/index.js.map
+.next/server/static/development/pages/next/dist/pages/_error.js.map
+.next/server/static/development/pages/nosotros.js.map
+.next/static/development/pages/index.js.map
+.next/static/development/pages/nosotros.js.map
+.next/static/runtime/webpack.js
+.next/static/runtime/webpack.js.map
+.next/static/webpack/7fd2280185e72621e9b6.hot-update.json
